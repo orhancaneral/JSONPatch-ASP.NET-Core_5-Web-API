@@ -67,12 +67,12 @@ To call to this operation, you will have to send a payload with an arry with eac
 
 If you want to modify the *Name* and *Age* of an employee, you will have to send two operations in the payload like:
 
-JSON Path sample
 ```csharp
 [
     {"op" : "replace", "path" : "/Name", "value" : "Frank"},
     {"op" : "replace", "path" : "/Age", "value" : "37"}
-]```
+]
+```
 
 You will receive a **200 OK** with the employee modified:
 
